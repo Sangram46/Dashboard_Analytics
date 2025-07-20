@@ -33,6 +33,32 @@ A modern-looking, static web app built with React.js, Vite, and Tailwind CSS tha
     npm run dev
 
 ## Project Structure
-
-<pre lang="bash"> ```bash src/ ├── assets/ │ └── (various images/icons) ├── components/ │ ├── Chat/ │ │ ├── ChatBubble.jsx │ │ ├── ChatHistory.jsx │ │ └── ChatInput.jsx │ ├── Dashboard/ │ │ ├── MetricCard.jsx │ │ ├── Navbar.jsx │ │ ├── Sidebar.jsx │ │ └── StatsChart.jsx │ ├── Layout/ │ │ ├── Footer.jsx │ │ └── Header.jsx │ └── ThemeToggle.jsx ├── contexts/ │ └── ThemeContext.jsx ├── pages/ │ ├── ChatPage.jsx │ ├── DashboardPage.jsx │ ├── LandingPage.jsx │ └── NotFoundPage.jsx ├── App.jsx ├── index.css └── main.jsx ``` </pre>
+```
+src/
+├── assets/
+│   └── (various images/icons)
+├── components/
+│   ├── Chat/
+│   │   ├── ChatBubble.jsx
+│   │   ├── ChatHistory.jsx
+│   │   └── ChatInput.jsx
+│   ├── Dashboard/
+│   │   ├── MetricCard.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── StatsChart.jsx
+│   ├── Layout/
+│   │   ├── Footer.jsx
+│   │   └── Header.jsx
+│   └── ThemeToggle.jsx
+├── contexts/
+│   └── ThemeContext.jsx
+├── pages/
+│   ├── ChatPage.jsx
+│   ├── DashboardPage.jsx
+│   ├── LandingPage.jsx
+│   └── NotFoundPage.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
 
