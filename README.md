@@ -28,38 +28,11 @@ A modern-looking, static web app built with React.js, Vite, and Tailwind CSS tha
 
 1. Clone the repository - (git clone https://github.com/Sangram46/Dashboard_Analytics.git)
 2. Install dependencies:
-   ```bash
-   npm install
-3.   Run the development server:
+    npm install
+3. Run the development server:
     npm run dev
 
 ## Project Structure
 
-src/
-├── assets/
-│   └── (various images/icons)
-├── components/
-│   ├── Chat/
-│   │   ├── ChatBubble.jsx
-│   │   ├── ChatHistory.jsx
-│   │   └── ChatInput.jsx
-│   ├── Dashboard/
-│   │   ├── MetricCard.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Sidebar.jsx
-│   │   └── StatsChart.jsx
-│   ├── Layout/
-│   │   ├── Footer.jsx
-│   │   └── Header.jsx
-│   └── ThemeToggle.jsx
-├── contexts/
-│   └── ThemeContext.jsx
-├── pages/
-│   ├── ChatPage.jsx
-│   ├── DashboardPage.jsx
-│   ├── LandingPage.jsx
-│   └── NotFoundPage.jsx
-├── App.jsx
-├── index.css
-└── main.jsx
+<pre lang="bash"> ```bash src/ ├── assets/ │ └── (various images/icons) ├── components/ │ ├── Chat/ │ │ ├── ChatBubble.jsx │ │ ├── ChatHistory.jsx │ │ └── ChatInput.jsx │ ├── Dashboard/ │ │ ├── MetricCard.jsx │ │ ├── Navbar.jsx │ │ ├── Sidebar.jsx │ │ └── StatsChart.jsx │ ├── Layout/ │ │ ├── Footer.jsx │ │ └── Header.jsx │ └── ThemeToggle.jsx ├── contexts/ │ └── ThemeContext.jsx ├── pages/ │ ├── ChatPage.jsx │ ├── DashboardPage.jsx │ ├── LandingPage.jsx │ └── NotFoundPage.jsx ├── App.jsx ├── index.css └── main.jsx ``` </pre>
 
